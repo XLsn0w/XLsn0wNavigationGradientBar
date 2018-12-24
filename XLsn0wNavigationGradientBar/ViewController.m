@@ -26,9 +26,6 @@ static NSString *iden = @"cell";
     }else {
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
-    
-
-    
 }
 
 #pragma mark - navigation settings
@@ -58,7 +55,7 @@ static NSString *iden = @"cell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:iden];
-    cell.textLabel.text = @"wj";
+    cell.textLabel.text = @"cell.textLabel";
     return cell;
 }
 

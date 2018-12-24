@@ -15,7 +15,6 @@
 		78ECD37D21D0E1C7001F7D4D /* XLsn0wNavigationGradientBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ECD37C21D0E1C7001F7D4D /* XLsn0wNavigationGradientBarUITests.m */; };
 		78ECD38B21D0E2CB001F7D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ECD38A21D0E2CB001F7D4D /* ViewController.m */; };
 		78ECD38D21D0E2DA001F7D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ECD38C21D0E2DA001F7D4D /* Main.storyboard */; };
-		78ECD39221D0E2EE001F7D4D /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ECD38F21D0E2EE001F7D4D /* DemoTableViewController.m */; };
 		78ECD39321D0E2EE001F7D4D /* UIImage+imgaeWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ECD39021D0E2EE001F7D4D /* UIImage+imgaeWithColor.m */; };
 /* End PBXBuildFile section */
 
@@ -54,9 +53,7 @@
 		78ECD38A21D0E2CB001F7D4D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78ECD38C21D0E2DA001F7D4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		78ECD38E21D0E2EE001F7D4D /* UIImage+imgaeWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imgaeWithColor.h"; sourceTree = "<group>"; };
-		78ECD38F21D0E2EE001F7D4D /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		78ECD39021D0E2EE001F7D4D /* UIImage+imgaeWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imgaeWithColor.m"; sourceTree = "<group>"; };
-		78ECD39121D0E2EE001F7D4D /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +111,6 @@
 				78ECD38C21D0E2DA001F7D4D /* Main.storyboard */,
 				78ECD38E21D0E2EE001F7D4D /* UIImage+imgaeWithColor.h */,
 				78ECD39021D0E2EE001F7D4D /* UIImage+imgaeWithColor.m */,
-				78ECD39121D0E2EE001F7D4D /* DemoTableViewController.h */,
-				78ECD38F21D0E2EE001F7D4D /* DemoTableViewController.m */,
 				78ECD36121D0E1C7001F7D4D /* Assets.xcassets */,
 				78ECD36321D0E1C7001F7D4D /* LaunchScreen.storyboard */,
 				78ECD36621D0E1C7001F7D4D /* Info.plist */,
@@ -275,7 +270,6 @@
 				78ECD39321D0E2EE001F7D4D /* UIImage+imgaeWithColor.m in Sources */,
 				78ECD38B21D0E2CB001F7D4D /* ViewController.m in Sources */,
 				78ECD36821D0E1C7001F7D4D /* main.m in Sources */,
-				78ECD39221D0E2EE001F7D4D /* DemoTableViewController.m in Sources */,
 				78ECD35A21D0E1C5001F7D4D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
