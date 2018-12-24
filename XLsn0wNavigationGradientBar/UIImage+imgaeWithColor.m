@@ -1,15 +1,7 @@
-//
-//  UIImage+imgaeWithColor.m
-//  5-个人详情页
-//
-//  Created by gouzi on 2017/5/21.
-//  Copyright © 2017年 wj. All rights reserved.
-//
 
 #import "UIImage+imgaeWithColor.h"
 
 @implementation UIImage (imgaeWithColor)
-
 
 + (UIImage *)imageWithColor:(UIColor *)color {
     
@@ -28,6 +20,5 @@
     UIGraphicsEndImageContext();
     return image;
 }
-
 
 @end
