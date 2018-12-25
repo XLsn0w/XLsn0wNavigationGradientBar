@@ -36,13 +36,14 @@ static NSString *iden = @"cell";
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
 
     //设置标题
-    UILabel *title = [[UILabel alloc] init];
-    title.text = @"个人主页";
-    [title sizeToFit];
+    UILabel *titleView = [[UILabel alloc] init];
+    titleView.text = @"我的";
+    [titleView sizeToFit];
+    titleView.backgroundColor = UIColor.clearColor;
     // 开始的时候看不见，所以alpha值为0
-    title.textColor = [UIColor colorWithWhite:0 alpha:0];
+    titleView.textColor = [UIColor colorWithWhite:0 alpha:0];
     
-    self.navigationItem.titleView = title;
+    self.navigationItem.titleView = titleView;
 }
 
 
@@ -55,7 +56,7 @@ static NSString *iden = @"cell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:iden];
-    cell.textLabel.text = @"cell.textLabel";
+    cell.textLabel.text = @"UITableViewCell";
     return cell;
 }
 
@@ -90,8 +91,5 @@ static NSString *iden = @"cell";
     [self.navigationController.navigationBar setBackgroundImage:alphaImage forBarMetrics:UIBarMetricsDefault];
     
 }
-
-
-
 
 @end
