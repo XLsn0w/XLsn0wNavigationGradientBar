@@ -16,7 +16,7 @@
 static NSString *iden = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self wjNavigationSettings];
+    [self setNavigationSettings];
 //    self.automaticallyAdjustsScrollViewInsets = NO;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:iden];
     //当调用contentInset会自动调用scrollViewDidScroll
@@ -29,11 +29,10 @@ static NSString *iden = @"cell";
 }
 
 #pragma mark - navigation settings
-- (void)wjNavigationSettings {
-    // 设置导航栏的背景
-    [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
-    // 取消掉底部的那根线
-    [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
+- (void)setNavigationSettings {
+   
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];// 设置导航栏的背景
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];// 取消掉底部的那根线
 
     //设置标题
     UILabel *titleView = [[UILabel alloc] init];
