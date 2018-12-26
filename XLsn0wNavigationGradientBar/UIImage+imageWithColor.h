@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (imgaeWithColor)
+@interface UIImage (imageWithColor)
 
 + (UIImage *)imageWithColor:(UIColor *)color;
 

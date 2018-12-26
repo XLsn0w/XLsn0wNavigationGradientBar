@@ -1,6 +1,6 @@
 
 #import "ViewController.h"
-#import "UIImage+imgaeWithColor.h"
+#import "UIImage+imageWithColor.h"
 
 #define oriOfftY -244
 #define oriHeight 200
@@ -44,9 +44,6 @@ static NSString *iden = @"cell";
     
     self.navigationItem.titleView = titleView;
 }
-
-
-
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
